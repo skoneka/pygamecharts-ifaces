@@ -1,0 +1,1 @@
+cd ~/ol/pygame/pyCharts/; ssh -v  root@fe80::20d:b9ff:fe2c:b4a5%eth0 stdbuf -i0 -o0 -e0 bwm-ng -o csv -I eth0,eth2 | python -u ~/ol/pygame/pyCharts/pygameCharts.py -i
